@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - Thế giới Việt phục</title>
+    <link rel="shortcut icon" href="img/asian_temple_icon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+ 
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://thanhnien.vn/ao-dai-truyen-thong-cung-tung-la-cach-tan-185625541.htm" target="_blank">
+                    <img src="img/tintuc/tintuc1.png">
+                    <h2>Áo dài 'truyền thống' cũng từng là... cách tân</h2>
+                </a>
+                <br/>
+                <h5>Thanh niên &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="http://www.vanhoanghethuat.vn/gen-z-va-trao-luu-phuc-dung-co-phuc-viet-tuong-lai-noi-dai-qua-khu.htm" target="_blank">
+                    <img src="img/tintuc/tintuc2.png">
+                    <h2>Gen Z và trào lưu phục dựng cổ phục Việt - Tương lai nối dài quá khứ</h2>
+                </a>
+                <br/>
+                <h5>Văn hóa nghệ thuật &emsp; 6 giờ</h5>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
